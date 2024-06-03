@@ -1,0 +1,43 @@
+.Auth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 2rem;
+  position: relative;
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 2rem; /* Adds space between logo and form */
+}
+
+.logo-text > img {
+  width: 6rem; /* Enlarged logo */
+  height: 6rem;
+}
+
+.logo-text > h1 {
+  font-size: 2rem; /* Adjusted font size */
+  color: rgb(89, 0, 255); /* Changed text color */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+  .Auth {
+    gap: 1.5rem; /* Adjusted gap for smaller screens */
+  }
+
+  .logo-text > img {
+    width: 4rem; /* Further reduced logo size */
+    height: 4rem;
+  }
+
+  .logo-text > h1 {
+    font-size: 1.5rem; /* Further adjusted font size */
+  }
+}

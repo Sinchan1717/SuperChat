@@ -1,0 +1,251 @@
+:root {
+  --yellow: #fa08a9;
+  --orange: #4507a8;
+  --black: #242d49;
+  --gray: rgba(36, 45, 73, 0.65);
+  --profileShadow: 0px 4px 17px 2px rgba(0, 0, 0, 0.25);
+  --hrColor: #cfcdcd;
+  --cardColor: rgba(255, 255, 255, 0.64);
+  --buttonBg: linear-gradient(98.63deg, #f925bd 0%, #3549f9 100%);
+  --inputColor: rgba(40, 52, 62, 0.07);
+  --photo: #4CB256;
+  --video: #4A4EB7;
+  --location: #EF5757;
+--shedule: #E1AE4A;
+}
+
+.App {
+  overflow: hidden;
+  color: var(--black);
+  background: #f3f3f3;
+  padding: 0rem 1rem;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+/* blur */
+.blur {
+  position: absolute;
+  width: 22rem;
+  height: 14rem;
+  border-radius: 50%;
+  background: #a6ddf0;
+  filter: blur(72px);
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  background: var(--buttonBg);
+  transition: all 100ms ease-out;
+}
+
+.button:hover {
+  color: var(--orange);
+  border: 2px solid var(--orange);
+  cursor: pointer;
+  background: transparent;
+}
+
+.button:disabled{
+  background: silver;
+  pointer-events: none;
+}
+
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+/* Form Styling */
+.infoForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.infoInput{
+  border: none;
+  outline: none;
+  background-color: var(--inputColor);
+  border-radius: 8px;
+  padding: 20px;
+  flex:1;
+}
+
+.infoForm>div{
+  display: flex;
+  gap: 1rem;
+  height: 2rem;
+  width: 90%;
+}
+
+.infoButton{
+  width: 6rem;
+  height: 2rem;
+  align-self: flex-end;
+}
+
+.mantine-5rr5mu {
+height: 40rem;
+}
+
+.flex-col{
+  display: flex;
+gap: 10px;
+  flex-direction: column;
+}
+
+.nav-active{
+  color: rgb(107 82 178);
+  border-bottom: 2px solid rgb(107 82 178);
+  /* background-color: rgb(251, 250, 250); */
+  
+}
+
+.navIcons a svg{
+  height: 2rem;
+  width: 2rem;
+}
+
+.gradient-bg{
+  fill: var(--buttonBg) !important;
+
+}
+
+/* utilities classes */
+
+.flex{
+  display: flex ;  
+}
+.jcc{ 
+  justify-content: center;
+}
+
+.jcsb{
+  justify-content: space-between;
+}
+.jcsa{
+  justify-content: space-around;
+}
+.aic{
+  align-items: center;
+
+}
+
+.aie{
+  align-items: end;
+}
+button{
+  background: none;
+border: none;  
+}
+
+.fs-20{
+  font-size: 20px;
+}
+.fs-13{
+  font-size: 13px;
+}
+.fs-10{
+  font-size: 10px;
+}
+.fwb{
+  font-weight: bold;
+}
+.fd-row{
+  flex-direction: row !important;
+}
+.fd-col{
+  flex-direction: column !important;
+}
+.w-100{
+  width: 100%;
+}
+.h-100{
+  height: 100%;
+}
+.w-80{
+  width: 80%;
+}
+
+.w-90{
+  width: 90%;
+}
+.ml-20{
+  margin-left: 20px;
+}
+.mr-20{
+  margin-left: 20px;
+}
+
+.g-5{
+  gap: 5rem;
+}
+.g-10{
+  gap: 10px;
+}
+.g-3{
+  gap: 3rem;
+}
+.g-3px{
+  gap: 3px;
+}
+.pt-1{
+padding-top: 1rem;
+}
+.p-5{
+  padding: 5px;
+}
+.p-10{
+  padding: 10px;
+}
+.p-1{
+  padding: 1rem;
+}
+
+.bg{
+  border-bottom: 1px solid grey;
+}
+
+.brbt{
+ border-bottom: 2px solid lightgrey;
+}
+
+.active{
+  background-color: rgb(225, 221, 221);
+ 
+}
+
+.cp{
+  cursor: pointer;
+ 
+}
+.grey{
+  color: rgb(176, 176, 176);
+}
+
+button{
+  cursor: pointer;
+  text-decoration: none;
+
+}
+a{
+  text-decoration: none;
+  color: black;
+
+}
+
+.mantine-5rr5mu {
+  height: auto;
+}
