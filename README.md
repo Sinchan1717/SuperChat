@@ -54,6 +54,7 @@ To run SuperChat locally, follow these steps:
 5. Open your web browser and navigate to http://localhost:3000 to view SuperChat locally.
 
 ## Usage
+
 To use SuperChat:
 
 1. Register for a new account or log in if you already have an account.
@@ -62,6 +63,7 @@ To use SuperChat:
 4. Manage your profile settings, friend requests, and notifications.
 
 ## Contributing
+
 Contributions to SuperChat are welcome! To contribute:
 
 1. Fork the repository.
