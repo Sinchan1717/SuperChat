@@ -72,7 +72,6 @@ Contributions to SuperChat are welcome! To contribute:
 
 ## License
 
-Specify the license under which your project is distributed. For example:
 This project is licensed under the [MIT License](LICENSE).
    
 
